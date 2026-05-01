@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BetaVault</title>
+    <title>Downloads - BetaVault</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="betavault.ico">
+        <link rel="icon" type="image/x-icon" href="betavault.ico">
+
   </head>
   <body>
     <header>
@@ -42,8 +43,8 @@
             </svg>
           </button>
           <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="download.html">Downloads</a>
+            <a href="index.html">Home</a>
+            <a href="download.html" class="active">Downloads</a>
             <a href="changelog.html">Changelog</a>
             <a href="contribute.html">Contribute!</a>
             <a href="about.html">About</a>
@@ -60,24 +61,44 @@
 
     <main>
       <div class="content-container">
+        <!-- Main Content Box -->
         <section class="main-content">
-          <h2>Welcome to BetaVault</h2>
-          <p>Accessible betas. Because BetaArchive loves hoarding.</p>
+          <h2>Downloads</h2>
           <p>
-            Your (not always) reliable source of software betas.
+            Here you can find a collection of beta builds available for download. These builds are
+            sourced from BetaArchive.
           </p>
-          <p>
-            If you want information regarding these builds, check out
-            <a href="https://www.betawiki.net" target="_blank" rel="noopener noreferrer"
-              >BetaWiki!</a
-            >
-            <br>
-            <h2>But... why?</h2>
-            <p>Rather simple answer. BetaArchive are hoarders. There's no other way to put it. It's rather stupid that you need to contribute software that they don't have - which is rather hard to find these days - to get access to files. Also for the record the legend, the saviour, the king mrpijey holds builds that aren't even available with members with download access. Feck you, BetaArchive.com.</p>
-          </p>
+          <ul>
+            <li><a href="/downloads/1.html">Windows 1.0</a></li>
+		    <li><a href="/downloads/2.html">Windows 2.x</a></li>
+            <li><a href="/downloads/2000.html">Windows 2000</a></li>
+            <li><a href="/downloads/xp.html">Windows XP/Whistler</a></li>
+            <li><a href="/downloads/7.html">Windows 7</a></li>
+            <li><a href="/downloads/10.html">Windows 10</a></li>
+            <li><a href="/downloads/11.html">Windows 11</a></li>
+          </ul>
+          <br>
+          <br>
+          <ul>
+            <li><a href="/mp/classic.html">Classic Windows</a></li>
+            <li><a href="/mp/9x.html">Windows 9x</a></li>
+            <li><a href="/mp/xp-7.html">Windows XP - 7</a></li>
+            <li><a href="/mp/metro.html">Metro (Windows 8 +)</a></li>
+	    <li><a href="/mp/bootlegs.html">Bootlegs</a></li>	  
+          </ul>
+          <br/>
+          <p>Don't want Windows? We have other operating systems too:</p>
+          <a href="/mp/linux.html">Linux</a>
+          <a href="/mp/android.html">Android</a>
+           <br>
+          <p>Want tools like VMware Tools, and others, we have that too!</p>
+          <ul>
+            <li><a href="/downloads/tools.html">Get Tools</a></li>
+          </ul>
         </section>
 
-        <aside class="info-box">
+        <!-- Information Box -->
+          <aside class="info-box">
           <h3 class="featuredName">Loading...</h3>
           <p class="featuredDesc"></p>
           <ul>
@@ -92,8 +113,7 @@
     <footer>
       <p>&copy; 2025 BetaVault. All rights reserved.</p>
     </footer>
-
-    <script src="./src/startup.js"></script>
-    <script src="./src/featured.js" defer></script>
+    <script src="/src/startup.js"></script>
+    <script src="/src/featured.js" defer></script>
   </body>
 </html>
