@@ -104,6 +104,14 @@ const availableFeaturedOS = [
     releaseDate: new Date(2024,12,28),
     build: 2,
   },
+
+  {
+    name: "Windows 7 Build 6767",
+    desc: "Windows 7 Build 6767 added some new features such as making icons on the taskbar smaller, better notification tray, and the removal of the Windows Movie Maker.",
+    codename: "Blackomb",
+    releaseDate: new Date(2008,8,7),
+    build: 6767,
+  },
 ];
 
 const chosenOS = availableFeaturedOS[Math.floor(Math.random() * availableFeaturedOS.length)];
